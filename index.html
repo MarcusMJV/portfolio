@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marcus Vorster | Full-Stack Software Engineer</title>
+  <meta name="description" content="Portfolio of Marcus Vorster, a full-stack software engineer building business systems and web applications with PHP, Vue, and Go." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Tech Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Full-Stack Software Engineer</p>
+          <h1 class="hero-title">Marcus Vorster</h1>
+          <p class="hero-subtitle">
+            Full-stack developer with 4+ years experience building business systems and web applications using PHP, Vue, and Go. Passionate about building reliable software and solving real-world problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+          </div>
+        </div>
+        <div class="hero-accent">
+          <div class="hero-card">
+            <p class="hero-card-label">Currently focused on</p>
+            <p class="hero-card-title">Business Systems & Full Scale Applications</p>
+            <div class="hero-card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">Go</span>
+            </div>
+          </div>
+          <div class="hero-card secondary">
+            <p class="hero-card-label">Based in</p>
+            <p class="hero-card-title">South Africa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="about-layout">
+          <div class="about-left">
+            <div class="section-header">
+              <h2>About</h2>
+              <p class="section-kicker">Who I am and what I do</p>
+            </div>
+            <div class="section-body">
+              <p class="body-text">
+                I am a software engineer with 4 years of experience building internal business systems and web applications. My work often involves designing and implementing REST APIs, integrating with existing services, and building frontends that make complex workflows intuitive.
+              </p>
+              <p class="body-text">
+                I work primarily with PHP and Vue.js on the application side, Go for high-performance services, and MySQL/PostgreSQL for data storage. I am comfortable in Linux environments, using Git and Docker daily to ship reliable software and keep deployments predictable.
+              </p>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="tetris-frame">
+              <canvas id="tetris-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave-divider wave-to-alt"></div>
+
+    <!-- Tech Stack -->
+    <section id="stack" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header" data-animate>
+          <h2>Tech Stack</h2>
+          <p class="section-kicker">Tools I use regularly</p>
+        </div>
+        <div class="stack-grid">
+          <article class="card stack-card" data-animate>
+            <h3>PHP</h3>
+            <p>Backend services, APIs, and business logic for internal tools and web apps.</p>
+          </article>
+          <article class="card stack-card" data-animate>
+            <h3>Vue.js</h3>
+            <p>Reactive user interfaces for dashboards, admin panels, and workflow tools.</p>
+          </article>
+          <article class="card stack-card" data-animate>
+            <h3>Go</h3>
+            <p>Fast, reliable services for system monitoring and backend processing.</p>
+          </article>
+          <article class="card stack-card" data-animate>
+            <h3>MySQL / PostgreSQL</h3>
+            <p>Relational database design, query performance, and data integrity.</p>
+          </article>
+          <article class="card stack-card" data-animate>
+            <h3>Git &amp; Linux</h3>
+            <p>Version control, CLI workflows, and server environments.</p>
+          </article>
+          <article class="card stack-card" data-animate>
+            <h3>Docker</h3>
+            <p>Containerized development environments and reproducible deployments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header" data-animate>
+          <h2>Experience</h2>
+          <p class="section-kicker">Where I've been working</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content card">
+              <h3>Software Engineer - Kelston Motor Group (South Africa)</h3>
+              <p class="timeline-meta">2022 - Present | Full-time</p>
+              <p class="timeline-body">
+                Responsibilities include building internal systems, automating workflows, and improving business processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave-divider wave-to-bg"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container section-inner">
+        <div class="section-header" data-animate>
+          <h2>Projects</h2>
+          <p class="section-kicker">Selected work and experiments</p>
+        </div>
+        <div class="projects-grid">
+          <article class="card project-card" data-animate>
+            <header class="project-header">
+              <h3>SnapSys</h3>
+            </header>
+            <p class="project-description">
+              System monitoring tool written in Go that captures CPU, memory, and disk metrics and stores snapshots in JSONL format.
+            </p>
+            <p class="project-tech">Go · JSONL · CLI · Monitoring</p>
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/MarcusMJV/snapsys" class="project-link" aria-label="SnapSys GitHub (placeholder)">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card" data-animate>
+            <header class="project-header">
+              <h3>House Party</h3>
+            </header>
+            <p class="project-description">
+              Real-time music queue application where users join rooms and collaboratively queue songs from a shared playlist.
+            </p>
+            <p class="project-tech">Vue.js · WebSockets · REST API</p>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="House Party GitHub (placeholder)">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card" data-animate>
+            <header class="project-header">
+              <h3>Business Systems</h3>
+            </header>
+            <p class="project-description">
+              Internal tools built to automate workflows, centralize data, and improve business processes for teams at scale.
+            </p>
+            <p class="project-tech">PHP · Vue.js · MySQL · REST APIs</p>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="Business Systems GitHub (placeholder)">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container section-inner">
+        <div class="section-header" data-animate>
+          <h2>Contact</h2>
+          <p class="section-kicker">Let's build something</p>
+        </div>
+        <div class="contact-grid">
+          <p class="body-text" data-animate>
+            Interested in collaborating, discussing a role, or talking through an idea? Reach out and I'll get back to you.
+          </p>
+          <ul class="contact-list" data-animate>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:marcusvorster@gmail.com" class="contact-link">marcusvorster@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/MarcusMJV" target="_blank" rel="noreferrer" class="contact-link">
+                MarcusMJV
+              </a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer" class="contact-link">
+                linkedin.com/in/your-linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
