@@ -67,8 +67,8 @@ document.querySelectorAll("[data-animate]").forEach((el) => observer.observe(el)
   if (!canvas) return;
 
   const BLOCK = 26;
-  const COLS = 8;
-  const ROWS = 12;
+  const COLS = 10;
+  const ROWS = 15;
 
   canvas.width = COLS * BLOCK;
   canvas.height = ROWS * BLOCK;
